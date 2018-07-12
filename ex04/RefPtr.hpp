@@ -5,6 +5,8 @@
 #ifndef REF_PTR_HPP_
 #define REF_PTR_HPP_
 
+#include <iostream>
+#include <fstream>
 #include <cstddef>
 #include "BaseComponent.hpp"
 
