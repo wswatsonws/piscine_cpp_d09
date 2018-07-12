@@ -1,9 +1,9 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-#include "BaseComponent.hpp"
-
-BaseComponent::~BaseComponent()
-{
-}
+#include "BaseComponent.hpp"/* Watson */
+/* Watson */
+BaseComponent::~BaseComponent()/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
 /* My own copyright */

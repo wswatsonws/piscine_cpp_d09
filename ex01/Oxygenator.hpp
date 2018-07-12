@@ -1,23 +1,22 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#ifndef OXYGENATOR_HPP_
-#define OXYGENATOR_HPP_
-
-#include "BaseComponent.hpp"
-
-class Oxygenator : public BaseComponent {
-public:
-	Oxygenator();
-	virtual ~Oxygenator() {}
-
-	void generateOxygen();
-	void useOxygen(int quantity);
-
-private:
-	int _quantity;
-};
-
-#endif 
+#ifndef OXYGENATOR_HPP_/* Watson */
+#define OXYGENATOR_HPP_/* Watson */
+/* Watson */
+#include "BaseComponent.hpp"/* Watson */
+/* Watson */
+class Oxygenator : public BaseComponent {/* Watson */
+public:/* Watson */
+	Oxygenator();/* Watson */
+	virtual ~Oxygenator() {}/* Watson */
+/* Watson */
+	void generateOxygen();/* Watson */
+	void useOxygen(int quantity);/* Watson */
+/* Watson */
+private:/* Watson */
+	int _quantity;/* Watson */
+};/* Watson */
+/* Watson */
+#endif /* Watson */
+/* Watson */
 /* My own copyright */

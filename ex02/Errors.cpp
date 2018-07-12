@@ -1,46 +1,44 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#include "Errors.hpp"
-
-NasaError::NasaError(std::string const &message,
-	std::string const &component) :
-	_message(message), _component(component)
-{
-}
-
-std::string const &NasaError::getComponent() const
-{
-	return (this->_component);
-}
-
-const char *NasaError::what() const noexcept
-{
-	return (this->_message.c_str());
-}
-
-LifeCriticalError::LifeCriticalError(std::string const &message,
-	std::string const &component) :
-	NasaError(message, component)
-{
-}
-
-MissionCriticalError::MissionCriticalError(std::string const &message,
-	std::string const &component) :
-	NasaError(message, component)
-{
-}
-
-CommunicationError::CommunicationError(std::string const &message) :
-	NasaError(message, "CommunicationDevice")
-{
-}
-
-UserError::UserError(std::string const &message,
-	std::string const &component) :
-	NasaError(message, component)
-{
-}
-
+#include "Errors.hpp"/* Watson */
+/* Watson */
+NasaError::NasaError(std::string const &message,/* Watson */
+	std::string const &component) :/* Watson */
+	_message(message), _component(component)/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
+std::string const &NasaError::getComponent() const/* Watson */
+{/* Watson */
+	return (this->_component);/* Watson */
+}/* Watson */
+/* Watson */
+const char *NasaError::what() const noexcept/* Watson */
+{/* Watson */
+	return (this->_message.c_str());/* Watson */
+}/* Watson */
+/* Watson */
+LifeCriticalError::LifeCriticalError(std::string const &message,/* Watson */
+	std::string const &component) :/* Watson */
+	NasaError(message, component)/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
+MissionCriticalError::MissionCriticalError(std::string const &message,/* Watson */
+	std::string const &component) :/* Watson */
+	NasaError(message, component)/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
+CommunicationError::CommunicationError(std::string const &message) :/* Watson */
+	NasaError(message, "CommunicationDevice")/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
+UserError::UserError(std::string const &message,/* Watson */
+	std::string const &component) :/* Watson */
+	NasaError(message, component)/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
 /* My own copyright */

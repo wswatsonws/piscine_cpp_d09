@@ -1,18 +1,17 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#ifndef ATMOSPHERE_REGULATOR_HPP_
-#define ATMOSPHERE_REGULATOR_HPP_
-
-#include "BaseComponent.hpp"
-
-class AtmosphereRegulator : public BaseComponent
-{
-public:
-	AtmosphereRegulator();
-	virtual ~AtmosphereRegulator();
-};
-
-#endif 
+#ifndef ATMOSPHERE_REGULATOR_HPP_/* Watson */
+#define ATMOSPHERE_REGULATOR_HPP_/* Watson */
+/* Watson */
+#include "BaseComponent.hpp"/* Watson */
+/* Watson */
+class AtmosphereRegulator : public BaseComponent/* Watson */
+{/* Watson */
+public:/* Watson */
+	AtmosphereRegulator();/* Watson */
+	virtual ~AtmosphereRegulator();/* Watson */
+};/* Watson */
+/* Watson */
+#endif /* Watson */
+/* Watson */
 /* My own copyright */

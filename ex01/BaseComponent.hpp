@@ -1,14 +1,13 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#ifndef BASE_COMPONENT_HPP_
-#define BASE_COMPONENT_HPP_
-
-class BaseComponent {
-public:
-	virtual ~BaseComponent() {}
-};
-
-#endif 
+#ifndef BASE_COMPONENT_HPP_/* Watson */
+#define BASE_COMPONENT_HPP_/* Watson */
+/* Watson */
+class BaseComponent {/* Watson */
+public:/* Watson */
+	virtual ~BaseComponent() {}/* Watson */
+};/* Watson */
+/* Watson */
+#endif /* Watson */
+/* Watson */
 /* My own copyright */

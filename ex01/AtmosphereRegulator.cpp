@@ -1,16 +1,15 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#include "Errors.hpp"
-#include "AtmosphereRegulator.hpp"
-
-AtmosphereRegulator::AtmosphereRegulator()
-{
-	throw NasaError("Not implemented.", "AtmosphereRegulator");
-}
-
-AtmosphereRegulator::~AtmosphereRegulator()
-{
-}
+#include "Errors.hpp"/* Watson */
+#include "AtmosphereRegulator.hpp"/* Watson */
+/* Watson */
+AtmosphereRegulator::AtmosphereRegulator()/* Watson */
+{/* Watson */
+	throw NasaError("Not implemented.", "AtmosphereRegulator");/* Watson */
+}/* Watson */
+/* Watson */
+AtmosphereRegulator::~AtmosphereRegulator()/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
 /* My own copyright */

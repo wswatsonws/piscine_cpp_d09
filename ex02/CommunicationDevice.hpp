@@ -1,27 +1,26 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#ifndef COMMUNICATION_DEVICE_HPP_
-#define COMMUNICATION_DEVICE_HPP_
-
-#include "CommunicationAPI.hpp"
-
-class CommunicationDevice
-{
-public:
-
-	CommunicationDevice(std::istream &input, std::ostream &output);
-	~CommunicationDevice();
-
-	void startMission(std::string const &missionName,
-		std::string *users, size_t nbUsers);
-	void send(std::string const &user, std::string const &message) const;
-	void receive(std::string const &user, std::string &message) const;
-
-private:
-	CommunicationAPI _api;
-};
-
-#endif 
+#ifndef COMMUNICATION_DEVICE_HPP_/* Watson */
+#define COMMUNICATION_DEVICE_HPP_/* Watson */
+/* Watson */
+#include "CommunicationAPI.hpp"/* Watson */
+/* Watson */
+class CommunicationDevice/* Watson */
+{/* Watson */
+public:/* Watson */
+/* Watson */
+	CommunicationDevice(std::istream &input, std::ostream &output);/* Watson */
+	~CommunicationDevice();/* Watson */
+/* Watson */
+	void startMission(std::string const &missionName,/* Watson */
+		std::string *users, size_t nbUsers);/* Watson */
+	void send(std::string const &user, std::string const &message) const;/* Watson */
+	void receive(std::string const &user, std::string &message) const;/* Watson */
+/* Watson */
+private:/* Watson */
+	CommunicationAPI _api;/* Watson */
+};/* Watson */
+/* Watson */
+#endif /* Watson */
+/* Watson */
 /* My own copyright */

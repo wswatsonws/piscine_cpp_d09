@@ -1,30 +1,29 @@
+/* This is my copyright.*//* Watson */
 /* Watson */
-/* This is my copyright.*/
-/* Please don not copy it. */
-
-#include <iostream>
-#include "Errors.hpp"
-#include "Oxygenator.hpp"
-
-Oxygenator::Oxygenator() : _quantity(0)
-{
-}
-
-void Oxygenator::generateOxygen()
-{
-	_quantity += 10;
-}
-
-void Oxygenator::useOxygen(int quantity)
-{
-	if (_quantity <= 10)
-		throw LifeCriticalError(
-			"Not enough oxygen to live.",
-			"Oxygenator");
-	if (_quantity <= 20)
-		throw MissionCriticalError(
-			"Not enough oxygen to continue the mission.",
-			"Oxygenator");
-	_quantity -= quantity;
-}
+#include <iostream>/* Watson */
+#include "Errors.hpp"/* Watson */
+#include "Oxygenator.hpp"/* Watson */
+/* Watson */
+Oxygenator::Oxygenator() : _quantity(0)/* Watson */
+{/* Watson */
+}/* Watson */
+/* Watson */
+void Oxygenator::generateOxygen()/* Watson */
+{/* Watson */
+	_quantity += 10;/* Watson */
+}/* Watson */
+/* Watson */
+void Oxygenator::useOxygen(int quantity)/* Watson */
+{/* Watson */
+	if (_quantity <= 10)/* Watson */
+		throw LifeCriticalError(/* Watson */
+			"Not enough oxygen to live.",/* Watson */
+			"Oxygenator");/* Watson */
+	if (_quantity <= 20)/* Watson */
+		throw MissionCriticalError(/* Watson */
+			"Not enough oxygen to continue the mission.",/* Watson */
+			"Oxygenator");/* Watson */
+	_quantity -= quantity;/* Watson */
+}/* Watson */
+/* Watson */
 /* My own copyright */
