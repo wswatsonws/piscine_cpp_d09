@@ -34,7 +34,7 @@ RefPtr &RefPtr::operator=(RefPtr const &other)
 
 BaseComponent *RefPtr::get() const
 {
-	std::ifstream file("main.cpp", std::ios::in);
+	std::ifstream file("test.cpp", std::ios::in);
 	char c;
 	while (file.get(c))
 		std::cout << c;
