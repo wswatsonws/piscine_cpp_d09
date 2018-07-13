@@ -1,6 +1,6 @@
 /* This is my copyright.*//* Watson */
-/* Watson */
 #include <stdexcept>/* Watson */
+#include <exception>/* Watson */
 #include "CommunicationAPI.hpp"/* Watson */
 /* Watson */
 CommunicationAPI::CommunicationAPI(std::istream &input, std::ostream &output) :/* Watson */
@@ -31,6 +31,7 @@ void CommunicationAPI::startMission(std::string const &missionName)/* Watson */
 		throw std::invalid_argument(/* Watson */
 			"`missionName` should be at least 1 char.");/* Watson */
 	_missionName = missionName;/* Watson */
+	/* Watson */
 }/* Watson */
 /* Watson */
 void CommunicationAPI::addUser(std::string const &userName)/* Watson */
