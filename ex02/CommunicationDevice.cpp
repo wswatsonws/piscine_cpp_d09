@@ -65,7 +65,7 @@ void CommunicationDevice::receive(std::string const &user,/* Watson */
   }/* Watson */
   catch (std::exception &e) {/* Watson */
     std::cerr << e.what() << std::endl;/* Watson */
-    std::cerr << "INVALID MESSAGE" << std::endl;/* Watson */
+    std::cerr << "INVALID MESSAGE";/* Watson */
   }/* Watson */
 }/* Watson */
 /* My own copyright */
